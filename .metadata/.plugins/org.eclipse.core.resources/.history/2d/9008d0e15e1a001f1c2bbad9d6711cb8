@@ -1,0 +1,20 @@
+package com.antonyit.dao;
+
+public class EmployeeDao {
+
+	// insert
+	public void insert() {
+
+	}
+
+	// getAll
+	public void getAll() {
+
+	}
+
+	// getAll
+	public void getById() {
+
+	}
+
+}

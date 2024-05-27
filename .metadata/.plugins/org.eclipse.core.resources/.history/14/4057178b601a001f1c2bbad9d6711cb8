@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+.formContainer{
+border:1px solid black;
+
+width:350ppx;
+
+height:400px
+}
+</style>
+
+</head>
+<body>
+
+<div class="formContainer">
+<form>
+
+</form>
+
+</div>
+
+</body>
+</html>

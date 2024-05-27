@@ -1,0 +1,38 @@
+package com.antonyit.dao;
+
+import com.antonyit.entity.Employee;
+
+public class EmployeeDao {
+
+	// insert
+	public void insert(Employee employee) {
+
+		System.out.println("=============================");
+		
+		
+		
+		System.out.println("=============================");
+	}
+
+	// getAll
+	public void getAll() {
+
+	}
+
+	// getById
+	public void getById() {
+
+	}
+	
+	//update
+	public void update() {
+
+	}
+	
+	//delete
+	
+	public void delete() {
+
+	}
+
+}

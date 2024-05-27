@@ -1,0 +1,182 @@
+Web Application
+===========================
+1.We cant develope web application using core java alone
+2.we can develop we applicaton using (corejava+servlet+html+css)
+==========================================================
+
+What is web Application
+========================
+1. A web application is a software application  
+2. A web application which is executes on a web server
+3. users can access web application through browsers
+4. web application can provide the service multiple users at a time
+
+Two Types of web aplication
+==============================
+1.static application
+2.dynamic application
+
+http://localhost:8080 
+
+http://localhost:8080/
+
+
+web server
+=============================
+1.Apache Tomcate
+2.JBoss
+3.Wblogic
+4.ISS
+
+============================
+
+How to create web-application -or-servlet project
+==================================================
+
+
+Eclipse+Tomcate Integration
+==================================================
+
+
+1.Tomcate- web server
+2.http://localhost:8080
+3.dynamic web project
+4.html file in dynamic web project
+5.Eclipse + tomcate integrate
+
+
+
+How to create servlet Class?
+===============================================
+1.using Servlet-interface
+2.using GenericServlet-Abstract Class
+3.using HttpServlet-Abstract Class
+
+What is servlet life cycle?
+==============================================
+1.init()
+2.service()
+3.destroy()
+
+How to integrate Html file to Servlet(Controller) file
+======================================================
+
+
+Dependency
+==============================================
+servlet-api
+
+name;
+designation;
+long phone;
+double salary;
+
+Class.forName("com.mysql.jdbc.Driver");
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/janani", "root", "admin");
+
+How to create table in mysql
+======================================
+create table employeedt(
+id int NOT NULL AUTO_INCREMENT,
+name varchar(255),
+designation varchar(255),
+phone bigint(10),
+salary double(10,2),
+primarykey(id)
+);
+==========================================================================
+JDBC 
+====================
+java database connectivity
+
+java+mysql
+==========================
+
+Three key components of JDBC Technology
+=======================================
+1.JDBC Api (java.sql)
+2.DriverManger(java.sql)
+3.Driver(com.mysql.jdbc)--External Jar
+
+Steps to write a JDBC program
+======================================
+1. Load the JDBC Driver
+  
+   Class.forName("com.mysql.jdbc.Driver");
+
+2. Establish the connection (DriverManager.getConnection(url,username,password ))
+		
+		mysql url: jdbc:mysql://localhost:3306/janani
+		mysql username: root
+		mysql password: admin
+
+3.Create Statement ()
+           1.statement (INSERT, RETRIVE, UPDATE, DELETED)
+           2.prparedstatement (INSERT, RETRIVE, UPDATE, DELETED)
+           3.callablestatement (INSERT, RETRIVE, UPDATE, DELETED)
+
+4.Execute SQL quries
+
+5.Process the result
+
+6.close connection
+
+
+How to Create Database
+============================================
+create database <db-name>
+create database janani
+
+How to enter into database
+===========================================
+use <db-name>
+use janani
+
+how to create table
+===========================================
+create table employee(name varchar(50), salary int(10), city varchar(50));
+
+How to check table is exit or not
+=============================================
+show tables;
+
+How to check description of tables
+=============================================
+desc employee;
+
+How to view table data
+============================================
+select * from employee;
+
+How to insert data into table [INSERT]
+=============================================
+
+insert into employee values ('janani', 5000, 'bangalore');
+insert into employee values ('smith', 6000, 'bangalore');
+
+How to fetch data from table  [RETRIVE]
+=============================================
+select * from employee;
+
+How to update data from table [UPDATE]
+=============================================
+ update employee set name='Raja' where name='tony';
+ update employee set name='Tony', salary=4000, city='chennai' where name='raja';
+
+How to delete data from table [DELETE]
+=============================================
+delete from employee where name='Tony';
+
+
+Java+MySql(CRUD-Operation: C-create | R-Retrive | U-update | D-Delete)
+
+statement.executeUpdate();int (1 -inserted | 0-failed)
+statement.executeQuery(); ResultSet
+
+create()-executeUpdate()
+retrive()-executeQuery()
+update()-executeUpdate()
+delete()-executeUpdate()
+
+SERVLET
+====================================================

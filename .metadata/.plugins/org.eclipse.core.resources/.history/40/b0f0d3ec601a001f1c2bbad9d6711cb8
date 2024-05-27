@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+.formContainer{
+border:1px solid black;
+
+width:350px;
+
+height:400px;
+
+padding:15px
+}
+</style>
+
+</head>
+<body>
+
+<div class="formContainer">
+<form>
+
+Employee Name:<input type="text" name="">
+Employee Designation:<input type="text" name="">
+Employee Phone:<input type="text" name="">
+Employee Salary:<input type="text" name="">
+</form>
+
+</div>
+
+</body>
+</html>

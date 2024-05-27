@@ -1,0 +1,6 @@
+1716619246436	Extract local variable 'writer'
+1716619894604	Extract local variable 'parseLong'
+1716619972737	Extract local variable 'parseDouble'
+1716620952178	Extract local variable 'connection'
+1716620992680	Extract local variable 'createStatement'
+1716621050322	Extract local variable 'executeUpdate'

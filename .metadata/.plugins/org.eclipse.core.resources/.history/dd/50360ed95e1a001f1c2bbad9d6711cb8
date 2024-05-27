@@ -1,0 +1,10 @@
+package com.antonyit.dao;
+
+public class EmployeeDao {
+	
+	//insert
+	public void insert() {
+		
+	}
+
+}

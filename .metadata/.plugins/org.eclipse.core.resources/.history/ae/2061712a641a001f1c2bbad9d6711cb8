@@ -1,0 +1,39 @@
+package com.antonyit.dao;
+
+public class EmployeeDao {
+
+	// insert
+	public void insert(String name, String designation, long phone, double salary) {
+
+		System.out.println("=============================");
+		
+		System.out.println(name);
+		System.out.println(designation);
+		System.out.println(phone);
+		System.out.println(salary);
+		
+		System.out.println("=============================");
+	}
+
+	// getAll
+	public void getAll() {
+
+	}
+
+	// getById
+	public void getById() {
+
+	}
+	
+	//update
+	public void update() {
+
+	}
+	
+	//delete
+	
+	public void delete() {
+
+	}
+
+}

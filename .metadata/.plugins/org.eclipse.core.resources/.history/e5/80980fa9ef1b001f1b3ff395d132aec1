@@ -1,0 +1,49 @@
+package com.antonyit.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+import com.antonyit.entity.Employee;
+
+public class EmployeeDao {
+
+	// insert
+	public void insert(Employee employee) {
+
+		try {
+			
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection connection = DriverManager.getConnection("jdbc:mysql:localhost:3036/ems","root","admin");
+			Statement statement = connection.createStatement();
+			String inserQuery="";
+			int executeUpdate = statement.executeUpdate(inserQuery);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	
+	}
+
+	// getAll
+	public void getAll() {
+
+	}
+
+	// getById
+	public void getById() {
+
+	}
+	
+	//update
+	public void update() {
+
+	}
+	
+	//delete
+	
+	public void delete() {
+
+	}
+
+}

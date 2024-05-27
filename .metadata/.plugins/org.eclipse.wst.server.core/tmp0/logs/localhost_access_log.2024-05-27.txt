@@ -1,0 +1,12 @@
+127.0.0.1 - - [27/May/2024:12:03:34 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/May/2024:12:03:35 +0530] "GET /employee-management-service/ HTTP/1.1" 404 783
+0:0:0:0:0:0:0:1 - - [27/May/2024:12:03:35 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [27/May/2024:12:03:54 +0530] "GET /employee-management-service/signup.html HTTP/1.1" 200 626
+0:0:0:0:0:0:0:1 - - [27/May/2024:12:03:56 +0530] "GET /employee-management-service/signup.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/May/2024:12:04:06 +0530] "POST /employee-management-service/RegisterController HTTP/1.1" 200 -
+127.0.0.1 - - [27/May/2024:12:05:41 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/May/2024:12:05:50 +0530] "POST /employee-management-service/RegisterController HTTP/1.1" 200 -
+127.0.0.1 - - [27/May/2024:12:07:20 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/May/2024:12:07:30 +0530] "POST /employee-management-service/RegisterController HTTP/1.1" 200 -
+127.0.0.1 - - [27/May/2024:12:08:56 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/May/2024:12:09:22 +0530] "POST /employee-management-service/RegisterController HTTP/1.1" 200 -

@@ -1,0 +1,31 @@
+package com.antonyit.dao;
+
+public class EmployeeDao {
+
+	// insert
+	public void insert(String name, String designation, long phone, double salary) {
+
+	}
+
+	// getAll
+	public void getAll() {
+
+	}
+
+	// getById
+	public void getById() {
+
+	}
+	
+	//update
+	public void update() {
+
+	}
+	
+	//delete
+	
+	public void delete() {
+
+	}
+
+}
